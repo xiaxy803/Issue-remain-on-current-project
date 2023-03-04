@@ -1,0 +1,11 @@
+We're currently working on the time filter in the Yacs team.
+But there are still some issues we can't handle at this moment.
+
+1.For the time filter, according to what team leader told us to do, we're supposed to add a filter only return true or false on each section we have on current finding,
+however, as I look through the data, each session(unique crn) can have several different array elements stored in since we have different week days and lecture/lab time 
+in one week for same course. So, as long as I find one data supposed to be delete, I should also delete the same crn session information from data, but I didn't come
+up with a solution for that at this moment.
+
+2.For the front-end, we supposed to create a pop-box that user can select on week day, enter begin time and end time, however, since no one in our group have an 
+experience in pop-box, we kind of stuck on how to create a right features in pop-box, and that result we can't read any data to test our algorithm on filter, so that's 
+why most of our algorithm in the code are only on adjustment. But we will try to figure out how to do it as soon as possible.
